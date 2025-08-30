@@ -10,11 +10,6 @@ skills:
 main-image: /ShockDiamonds.PNG
 ---
 
-## Overview
-I designed, fabricated, and tested two hybrid rocket engines, supported by a custom-built simulation program. This project combined machining, risk analysis, and performance modeling, creating a complete cycle of design → build → test → validate.
-
----
-
 ## Motor 1
 The first engine was an opportunity for me to learn, starting from almost zero experience.
 
@@ -47,7 +42,7 @@ The second engine was made to be compact, self-contained, and usable on a model 
 ## Custom Simulation Program
 After building lots of hardware, I wrote a simulation tool to model hybrid motor performance. It used regression rate models and thermodynamic calculations to predict chamber pressure, thrust, and total impulse among other things.
 
-'''python
+```python
 # --- Fuel regression and mass flow update ---
 
 # port cross-sectional area (m^2)
@@ -64,7 +59,7 @@ dia_p += 2 * r_dot * d_time
 
 # fuel mass flow (kg/s) from port growth
 m_dot_f = (math.pi * (dia_p / 2) ** 2 - a_p) * l_g * rho_f / d_time
-'''
+```
 
 {% include youtube-video.html id="nEWOL1fKOFY" autoplay= "false"%}
 <span style="font-size: 16px">Video going through more complex models used and general program architecture</span> 
