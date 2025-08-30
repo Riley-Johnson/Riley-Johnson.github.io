@@ -39,7 +39,7 @@ main-image: /kaleidoscope.png
 {% include image-gallery.html images="2.png" height="400" %}
 <span style="font-size: 16px">Page 2 of brochure</span> 
 
-{% include image-gallery.html images="SAMPLER.png" height="1000" %}
+{% include image-gallery.html images="SAMPLER.png" height="800" %}
 <span style="font-size: 16px">Project poster</span> 
 
 {% include image-gallery.html images="Scoop 1.PNG" height="400" %}
