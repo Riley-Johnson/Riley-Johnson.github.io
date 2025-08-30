@@ -7,7 +7,7 @@ skills:
   - Rapid prototyping
   - Team leadership
   - Project organization
-main-image: /ShockDiamonds.PNG
+main-image: /kaleidoscope.png
 ---
 
 ## Background
