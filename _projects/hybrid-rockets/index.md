@@ -47,9 +47,28 @@ The second engine was made to be compact, self-contained, and usable on a model 
 ## Custom Simulation Program
 After building lots of hardware, I wrote a simulation tool to model hybrid motor performance. It used regression rate models and thermodynamic calculations to predict chamber pressure, thrust, and total impulse among other things.
 
+'''python
+# --- Fuel regression and mass flow update ---
+
+# port cross-sectional area (m^2)
+a_p = math.pi * (dia_p / 2) ** 2
+
+# oxidizer mass flux (kg/m^2s)
+G = m_dot_i / a_p
+
+# regression rate (m/s) from empirical model
+r_dot = a * (G ** n)
+
+# update port diameter with regression over timestep
+dia_p += 2 * r_dot * d_time
+
+# fuel mass flow (kg/s) from port growth
+m_dot_f = (math.pi * (dia_p / 2) ** 2 - a_p) * l_g * rho_f / d_time
+'''
+
 {% include youtube-video.html id="nEWOL1fKOFY" autoplay= "false"%}
-<span style="font-size: 16px">Video going through models used and program architecture</span> 
+<span style="font-size: 16px">Video going through more complex models used and general program architecture</span> 
 {% include image-gallery.html images="SimGraphs.png" height="400" %}
-<span style="font-size: 16px">Graphs of various properties from a simulation</span> 
+<span style="font-size: 16px">Graphs of various quantities from a simulation</span> 
 
 
