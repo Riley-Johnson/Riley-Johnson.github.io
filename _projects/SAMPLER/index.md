@@ -4,7 +4,8 @@ title: S.A.M.P.L.E.R
 description: (Sieve-Aided Material Pickup for Lunar Endeavors with Regolith) Led team that created device for sorting samples of lunar material.
 skills: 
   - CAD
-  - Rapid prototyping
+  - Simulated testing
+  - Iterative design
   - Team leadership
   - Project organization
 main-image: /kaleidoscope.png
