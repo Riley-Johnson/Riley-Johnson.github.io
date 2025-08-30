@@ -37,14 +37,19 @@ The second engine was made to be compact, self-contained, and usable on a model 
 - Used 3D printed ABS fuel grain with nitrous oxide oxidizer
 - Custom pyrotechnic valve that used solid propellant and a plastic burst disk
 
-{% include image-gallery.html images="SecondInternals.PNG" height="400" %}
+{% include image-gallery.html images="SecondInternals.png" height="400" %}
 <span style="font-size: 16px">Motor components</span>
-{% include image-gallery.html images="MachDiamonds.PNG" height="400" %}
+{% include image-gallery.html images="ShockDiamonds.PNG" height="400" %}
 <span style="font-size: 16px">First successful hot-fire test, showing mach diamonds in the exhaust</span> 
 
 ---
 
 ## Custom Simulation Program
 After building lots of hardware, I wrote a simulation tool to model hybrid motor performance. It used regression rate models and thermodynamic calculations to predict chamber pressure, thrust, and total impulse among other things.
+
+{% include youtube-video.html id="nEWOL1fKOFY&t" autoplay= "false"%}
+<span style="font-size: 16px">Video going through models used and program architecture</span> 
+{% include image-gallery.html images="SimGraphs.png" height="400" %}
+<span style="font-size: 16px">Graphs of various properties from a simulation</span> 
 
 
