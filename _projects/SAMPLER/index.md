@@ -29,11 +29,16 @@ main-image: /kaleidoscope.png
 ## Impact
 
 - Invited to present to engineers from Johnson Space Center in Houston, TX
-- Plan to test 3D printed titanium prototype at the NASA SLOPE Lab
+- Plan to test 3D printed metal prototype at the NASA SLOPE Lab
 
 
 {% include image-gallery.html images="1.png" height="400" %}
+<span style="font-size: 16px">Page 1 of brochure</span> 
+
 {% include image-gallery.html images="2.png" height="400" %}
+<span style="font-size: 16px">Page 2 of brochure</span> 
+
 {% include image-gallery.html images="SAMPLER.png" height="1000" %}
+<span style="font-size: 16px">Project poster</span> 
 
 
