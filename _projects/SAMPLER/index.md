@@ -42,10 +42,10 @@ main-image: /kaleidoscope.png
 {% include image-gallery.html images="SAMPLER.png" height="1000" %}
 <span style="font-size: 16px">Project poster</span> 
 
-{% include image-gallery.html images="Scoop 1.PNG" height="1000" %}
+{% include image-gallery.html images="Scoop 1.PNG" height="400" %}
 <span style="font-size: 16px">Holding tool prototype</span> 
 
-{% include image-gallery.html images="Scoop 2.JPG" height="1000" %}
+{% include image-gallery.html images="Scoop 2.JPG" height="400" %}
 <span style="font-size: 16px">Testing tool prototype in front of audience</span> 
 
 
