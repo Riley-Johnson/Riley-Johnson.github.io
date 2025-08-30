@@ -13,7 +13,7 @@ main-image: /kaleidoscope.png
 
 ## Background
 
-- Selected for NASA HUNCH Flight Hardware track, building flight-capable hardware for evaluation at Johnson Space Center
+- Selected for NASA HUNCH Flight Hardware program, designing flight-capable hardware for possible use in space
 - Project focused on regolith handling and particle separation to support future lunar missions
 - Designed to separate lunar simulant into consistent size fractions for testing and analysis
 - Led a student engineering team from concept development through fabrication and testing
