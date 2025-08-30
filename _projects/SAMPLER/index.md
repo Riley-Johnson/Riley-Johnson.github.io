@@ -1,7 +1,7 @@
 ---
 layout: post
 title: S.A.M.P.L.E.R
-description: Led team that created device for sorting samples of lunar regolith.
+description: (Sieve-Aided Material Pickup for Lunar Endeavors with Regolith) Led team that created device for sorting samples of lunar material.
 skills: 
   - CAD
   - Rapid prototyping
