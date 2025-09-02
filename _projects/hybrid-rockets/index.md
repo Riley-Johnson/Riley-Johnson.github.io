@@ -60,6 +60,7 @@ dia_p += 2 * r_dot * d_time
 # fuel mass flow (kg/s) from port growth
 m_dot_f = (math.pi * (dia_p / 2) ** 2 - a_p) * l_g * rho_f / d_time
 ```
+<span style="font-size: 16px">Sample snippet from simulation code</span> 
 
 {% include youtube-video.html id="nEWOL1fKOFY" autoplay= "false"%}
 <span style="font-size: 16px">Video going through more complex models used and general program architecture</span> 
