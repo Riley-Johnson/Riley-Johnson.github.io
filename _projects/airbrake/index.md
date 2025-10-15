@@ -41,7 +41,7 @@ Already have developed brake hardware, simulation, and control algorithm. Have a
 - PD controller w/ hysteresis deadbanding
 - Monte carlo simulations 
 
-{% include image-gallery.html images="montecarlo.png" height="100" %}
+{% include image-gallery.html images="montecarlo.png" height="500" %}
 <span style="font-size: 16px">Results from monte carlo test</span>
 
 ---
