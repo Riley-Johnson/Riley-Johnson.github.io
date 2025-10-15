@@ -47,7 +47,7 @@ Already have developed brake hardware, simulation, and control algorithm. Have a
 ---
 
 ## Presentation
-The second engine was made to be compact, self-contained, and usable on a model rocket.
+Slides from math club presentation on the airbrake
 
 {% include image-gallery.html images="1.png" height="400" %}
 
