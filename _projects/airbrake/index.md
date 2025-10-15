@@ -15,37 +15,57 @@ Currently working to build a model rocket airbrake to precisely reach a target a
 
 ---
 
-## Hardware
+## Airbrake
 
 - 3D printed from PLA and PETG
 - Actuated by small servo
 - Uses spiral cams to push out brake "petals"
-
+- Sits in middle of rocket
+- Holds ballast pennies
 
 {% include image-gallery.html images="airbrakegif.gif" height="400" %}
 
+## Rocket
+- Holds egg payload
+- Custom nosecone and motor mount assembly
+- Ballast pennies in nosecone and middle
+- Custom electronics developed by team partner
+
+{% include image-gallery.html images="crosssection.png" height="100" %}
+
 ---
 
-## Motor 2
+## Presentation
 The second engine was made to be compact, self-contained, and usable on a model rocket.
 
-- Machined from aluminum with a low carbon steel nozzle
-- Used 3D printed ABS fuel grain with nitrous oxide oxidizer
-- Custom pyrotechnic valve that used solid propellant and a plastic burst disk
+{% include image-gallery.html images="1.png" height="400" %}
 
-{% include image-gallery.html images="SecondInternals.png" height="400" %}
-<span style="font-size: 16px">Motor components</span>
-{% include image-gallery.html images="ShockDiamonds.PNG" height="400" %}
-<span style="font-size: 16px">First successful hot-fire test, showing mach diamonds in the exhaust</span> 
+{% include image-gallery.html images="2.png" height="400" %}
 
----
+{% include image-gallery.html images="3.png" height="400" %}
 
-## Custom Simulation Program
-After building lots of hardware, I wrote a simulation tool to model hybrid motor performance. It used regression rate models and thermodynamic calculations to predict chamber pressure, thrust, and total impulse among other things.
+{% include image-gallery.html images="4.png" height="400" %}
 
-{% include youtube-video.html id="nEWOL1fKOFY" autoplay= "false"%}
-<span style="font-size: 16px">Video going through models used and program architecture</span> 
-{% include image-gallery.html images="SimGraphs.png" height="400" %}
-<span style="font-size: 16px">Graphs of various properties from a simulation</span> 
+{% include image-gallery.html images="5.png" height="400" %}
 
+{% include image-gallery.html images="6.png" height="400" %}
 
+{% include image-gallery.html images="7.png" height="400" %}
+
+{% include image-gallery.html images="8.png" height="400" %}
+
+{% include image-gallery.html images="9.png" height="400" %}
+
+{% include image-gallery.html images="10.png" height="400" %}
+
+{% include image-gallery.html images="11.png" height="400" %}
+
+{% include image-gallery.html images="12.png" height="400" %}
+
+{% include image-gallery.html images="13.png" height="400" %}
+
+{% include image-gallery.html images="14.png" height="400" %}
+
+{% include image-gallery.html images="15.png" height="400" %}
+
+{% include image-gallery.html images="16.png" height="400" %}
