@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Hybrid Rocket Engines
-description: Designed, fabricated, and tested two hybrid rocket motors, built custom simulation software using models from available literature.
+title: Airbrake
+description: Developing a model rocket airbrake to precisely reach a target apogee.
 skills: 
   - CAD
-  - Metal machining
   - Numerical simulation
   - Risk analysis
-main-image: /ShockDiamonds.PNG
+main-image: /crosssection.png
 ---
 
 ## Overview
-Currently working to build a model rocket airbrake to precisely reach a target apogee
+Already have developed brake hardware, simulation, and control algorithm. Have also already undergone first round of flight testing, where we validated state estimation and airbrake capabilities in flight.
 
 ---
 
@@ -24,6 +23,7 @@ Currently working to build a model rocket airbrake to precisely reach a target a
 - Holds ballast pennies
 
 {% include image-gallery.html images="airbrakegif.gif" height="400" %}
+<span style="font-size: 16px">CAD animation of airbrake</span>
 
 ## Rocket
 - Holds egg payload
@@ -32,6 +32,17 @@ Currently working to build a model rocket airbrake to precisely reach a target a
 - Custom electronics developed by team partner
 
 {% include image-gallery.html images="crosssection.png" height="100" %}
+<span style="font-size: 16px">Rocket CAD cross-section</span>
+
+## Simulation
+- Custom 6 degrees-of-freedom simulation
+- Simulated sensor noise
+- Kalman filter and state estimation
+- PD controller w/ hysteresis deadbanding
+- Monte carlo simulations 
+
+{% include image-gallery.html images="crosssection.png" height="100" %}
+<span style="font-size: 16px">Results from monte carlo test</span>
 
 ---
 
